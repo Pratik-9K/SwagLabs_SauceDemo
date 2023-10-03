@@ -1,0 +1,19 @@
+Project Name:- SauceDemo SwagLabs
+
+Project Description:- This project verifies the functionality of a shopping site (https://www.saucedemo.com/)
+					  By using Selenium with Java
+
+Framework name:- Selenium with Java
+
+Repository link:- https://github.com/Pratik-9K/SwagLabs_SauceDemo.git
+
+Folder structure:- 
+- src
+  - main
+    - java
+      - project3_SwagLabs.SwagLabs_SauceDemo
+            - Baseclass.java
+            - EleAndMeth2.java
+            - ElementsAndMethods.java
+            - TestCases.java
+        
