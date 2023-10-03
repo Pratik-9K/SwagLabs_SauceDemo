@@ -10,7 +10,7 @@ public class TestCases extends Baseclass {
 	ElementsAndMethods use;
 	EleAndMeth2 use2;
 	
-	@Ignore @Test(priority = 1, dataProvider = "dataData")
+	@Test(priority = 1, dataProvider = "dataData")
 	public void TC1(String uid, String pass, String fname, String lname, String pcode) throws Exception{
 		use = new ElementsAndMethods(driver);
 		use.Login(uid, pass);
@@ -31,7 +31,7 @@ public class TestCases extends Baseclass {
 		use.verifySite();
 	}
 	
-	@Ignore @Test(priority = 2, dataProvider = "dataData2")
+	@Test(priority = 2, dataProvider = "dataData2")
 	public void TC2(String uid, String pass) throws Exception{
 		use = new ElementsAndMethods(driver);
 		use2 = new EleAndMeth2(driver);
