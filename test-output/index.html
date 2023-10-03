@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\prati\AppData\Local\Temp\testng-eclipse-577292543\testng-customsuite.xml</span>
+                    <span>C:\Users\prati\AppData\Local\Temp\testng-eclipse-303710884\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,16 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="project3_SwagLabs.SwagLabs_SauceDemo.TestCases" class="method navigator-link" hash-for-method="TC1(standard_user, secret_sauce, Excel, RRRR, 454545)">TC1(standard_user, secret_sauce, Excel, RRRR, 454545)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="project3_SwagLabs.SwagLabs_SauceDemo.TestCases" class="method navigator-link" hash-for-method="TC2(standard_user, secret_sauce)">TC2(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="project3_SwagLabs.SwagLabs_SauceDemo.TestCases" class="method navigator-link" hash-for-method="TC3(standard_user, secret_sauce)">TC3(standard_user, secret_sauce)</a> <!-- method navigator-link -->
@@ -127,6 +137,22 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="TC1(standard_user, secret_sauce, Excel, RRRR, 454545)">
+                  </a> <!-- TC1(standard_user, secret_sauce, Excel, RRRR, 454545) -->
+                  <span class="method-name">TC1</span>
+                  <span class="parameters">(standard_user, secret_sauce, Excel, RRRR, 454545)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2(standard_user, secret_sauce)">
+                  </a> <!-- TC2(standard_user, secret_sauce) -->
+                  <span class="method-name">TC2</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="TC3(standard_user, secret_sauce)">
                   </a> <!-- TC3(standard_user, secret_sauce) -->
                   <span class="method-name">TC3</span>
@@ -138,7 +164,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\prati\AppData\Local\Temp\testng-eclipse-577292543\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\prati\AppData\Local\Temp\testng-eclipse-303710884\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -187,16 +213,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC3')
+data.setCell(0, 1, 'TC1')
 data.setCell(0, 2, 'project3_SwagLabs.SwagLabs_SauceDemo.TestCases')
-data.setCell(0, 3, 837);
+data.setCell(0, 3, 3142);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC3')
+data.setCell(1, 2, 'project3_SwagLabs.SwagLabs_SauceDemo.TestCases')
+data.setCell(1, 3, 1153);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC2')
+data.setCell(2, 2, 'project3_SwagLabs.SwagLabs_SauceDemo.TestCases')
+data.setCell(2, 3, 604);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 837 ms</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -228,12 +262,36 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC3(standard_user, secret_sauce)</span>
-                <span class="method-start">7058 ms</span>
+                <span class="method-name">TC1(standard_user, secret_sauce, Excel, RRRR, 454545)</span>
+                <span class="method-start">10971 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">7897 ms</span>
+                <span class="method-start">14179 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">15071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC2(standard_user, secret_sauce)</span>
+                <span class="method-start">21872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">22477 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">22755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC3(standard_user, secret_sauce)</span>
+                <span class="method-start">28829 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">29984 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
